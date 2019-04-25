@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ask</title>
+    <link href="css/ask.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        Ask any question:<br>
+        <form>
+        <textarea class="here" id="post" name="message" rows="2"></textarea>
+        <button type="button" id="show">post</button>
+    </form>
+    </header>
+    <br><br><br><br><br>
+    <p id ="view"></p>
+</body>
+<script>
+    var post = document.getElementById("post");
+    var view = document.getElementById("view");
+    var show = document.getElementById("show");
+    show.onclick = function(){
+        pos = post.value;
+        if(pos !== ""){
+            view.innerHTML = pos;
+        }
+    }
+
+</script>
+</html>

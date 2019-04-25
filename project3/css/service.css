@@ -1,0 +1,54 @@
+header{
+    text-align: center ;
+    text-decoration: overline; 
+}
+body{
+    text-align: 0;
+    background-color: #333; 
+    color: white;
+    line-height: 2.5rem;
+}
+.lol{
+
+background-color: lightblue;
+color: black;
+margin-left: 0;
+border-radius: 3.4rem;
+}
+ol li{
+   list-style: lower-roman;
+}
+
+.lol p{
+    margin-left: 30px;
+}
+textarea{
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 50%;
+    height: 100px;
+    background-color: #f8f8f8;
+    resize: none; 
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.grid{
+    
+   float: right;
+
+}
+.grid a{
+    text-decoration: none;
+    color: palegreen;
+    margin-bottom: 100px; 
+}

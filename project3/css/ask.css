@@ -1,0 +1,28 @@
+
+textarea{
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 50%;
+    height: 100px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-left:  3rem; 
+}
+button[type=button]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+button[type=button]:hover {
+    background-color: #45a049;
+}
+body{
+    background-color: lightseagreen;
+}
